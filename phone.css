@@ -1,0 +1,54 @@
+
+/* Header */
+header::before{
+    height: 100px;
+}
+
+#navbar::before{
+    height: 80px;
+}
+
+/* Navbar */
+#navbar ul {
+  flex-wrap: wrap;
+}
+#navbar ul li a{
+    padding: 4px 10px;
+}
+
+/* Home */
+#home{
+    height: 400px;
+    width: 300px;
+    margin-top: 135px;
+}
+
+/* Footer */
+footer::before{
+    height: 350px;
+}
+
+@media screen and (max-width:700px) {
+    footer::before{
+        height: 770px;
+    }
+    .foot-items{
+       padding: 20px;
+    }
+    .footer{
+        margin-top: 250px;
+    }
+    /* #airplane{
+        animation: none;
+    } */
+}
+@media screen and (max-width:300px){
+    #home{
+        height: 500px;
+        width: 180px;
+        margin-top: 90px;
+    }
+    .home{
+        padding:5px;
+    }
+}
